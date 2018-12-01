@@ -1,0 +1,1636 @@
+{
+    "name": "Level1",
+    "root": {
+        "name": "root",
+        "path": null,
+        "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+      "children": [
+        {
+          "name": "Camera",
+          "tag": "Camera",
+          "path": null,
+          "position": {
+            "x": -10.0,
+            "y": 20.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "children": []
+        },
+        {
+          "name": "Player",
+          "tag": "Player",
+          "path": "model/Tank.fbx",
+          "position": {
+            "x": 0.0,
+            "y": 10.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "children": []
+        },
+        {
+          "name": "CompleteLevelArt",
+          "path": null,
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "children": [
+            {
+              "name": "Boundaries",
+              "path": null,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "children": [
+                {
+                  "name": "Cliff",
+                  "path": "model/Cliff.fbx",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Cliff (1)",
+                  "path": "model/Cliff.fbx",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 270.000031,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Cliff (2)",
+                  "path": "model/Cliff.fbx",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 180.000046,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Cliff (3)",
+                  "path": "model/Cliff.fbx",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 90.00008,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.00000024,
+                    "y": 1.0,
+                    "z": 1.00000024
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Ground",
+              "path": null,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "children": [
+                {
+                  "name": "GroundPlane",
+                  "path": "model/Terrain.fbx",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.05,
+                    "y": 1.05,
+                    "z": 1.05
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Concrete",
+                  "path": "model/Concrete.fbx",
+                  "position": {
+                    "x": 7.37,
+                    "y": 0.0,
+                    "z": 22.34
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 217.049835,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.35395145,
+                    "y": 1.353951,
+                    "z": 1.35395145
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Concrete (1)",
+                  "path": "model/Concrete.fbx",
+                  "position": {
+                    "x": 9.2,
+                    "y": 0.0,
+                    "z": 11.3
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 160.815048,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.00000012,
+                    "y": 1.0,
+                    "z": 1.00000012
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Concrete (2)",
+                  "path": "model/Concrete.fbx",
+                  "position": {
+                    "x": -6.36,
+                    "y": 0.0,
+                    "z": 12.06
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 351.284241,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.99999994,
+                    "y": 1.0,
+                    "z": 0.99999994
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Concrete (3)",
+                  "path": "model/Concrete.fbx",
+                  "position": {
+                    "x": 35.9,
+                    "y": 0.0,
+                    "z": -23.7
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 15.2980824,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.35395133,
+                    "y": 1.353951,
+                    "z": 1.35395133
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Concrete (4)",
+                  "path": "model/Concrete.fbx",
+                  "position": {
+                    "x": 14.9,
+                    "y": 0.0,
+                    "z": -22.1
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 231.9239,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.353952,
+                    "y": 1.353951,
+                    "z": 1.353952
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Concrete (5)",
+                  "path": "model/Concrete.fbx",
+                  "position": {
+                    "x": 9.2,
+                    "y": 0.0,
+                    "z": -33.3
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 312.632019,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.35395217,
+                    "y": 1.353951,
+                    "z": 1.35395193
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Concrete (6)",
+                  "path": "model/Concrete.fbx",
+                  "position": {
+                    "x": 15.7,
+                    "y": 0.0,
+                    "z": -35.8
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 15.2980824,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.35395133,
+                    "y": 1.353951,
+                    "z": 1.35395133
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Concrete (7)",
+                  "path": "model/Concrete.fbx",
+                  "position": {
+                    "x": -2.07,
+                    "y": 0.0,
+                    "z": 29.86
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 18.4028435,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.35395145,
+                    "y": 1.353951,
+                    "z": 1.35395145
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Concrete (8)",
+                  "path": "model/Concrete.fbx",
+                  "position": {
+                    "x": -24.9,
+                    "y": 0.0,
+                    "z": -31.33
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 309.8935,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.35395145,
+                    "y": 1.353951,
+                    "z": 1.35395169
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Dunes",
+              "path": null,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "children": [
+                {
+                  "name": "Dunes01",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": -15.91,
+                    "y": 0.0,
+                    "z": -2.97
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 278.635284,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.6668411,
+                    "y": 0.4140007,
+                    "z": 0.66684103
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (1)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": -19.6,
+                    "y": 0.0,
+                    "z": 6.9
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 114.226715,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.7698197,
+                    "y": 0.319519281,
+                    "z": 0.76982
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (2)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": -20.2,
+                    "y": 0.0,
+                    "z": 12.5
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 95.78822,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.6551207,
+                    "y": 0.48030144,
+                    "z": 0.65512073
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (3)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": -33.78,
+                    "y": 0.0,
+                    "z": 0.82
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 309.627716,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.673527837,
+                    "y": 0.410258383,
+                    "z": 0.673527837
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (4)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": 25.5836,
+                    "y": 0.0,
+                    "z": 15.3241272
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 283.635284,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.66684103,
+                    "y": 0.214246631,
+                    "z": 0.666841
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (5)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": -26.5,
+                    "y": 0.0,
+                    "z": 23.4
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 280.759949,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.655120432,
+                    "y": 0.48030144,
+                    "z": 0.6551205
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (6)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": -30.4,
+                    "y": 0.0,
+                    "z": 17.4
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 149.322083,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.7698196,
+                    "y": 0.319519281,
+                    "z": 0.7698197
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (7)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": 18.73,
+                    "y": 0.0,
+                    "z": 17.67
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 65.7133255,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.7698196,
+                    "y": 0.319519281,
+                    "z": 0.769819856
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (9)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": -7.17,
+                    "y": 0.0,
+                    "z": -12.15
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 278.635284,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.6668411,
+                    "y": 0.5349015,
+                    "z": 0.66684103
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (8)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": 23.2,
+                    "y": 0.0,
+                    "z": 32.7
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 104.5504,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.655120552,
+                    "y": 0.29408443,
+                    "z": 0.655120969
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (10)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": -31.4,
+                    "y": 0.0,
+                    "z": -16.17
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 74.216156,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.769819558,
+                    "y": 0.319519281,
+                    "z": 0.7698197
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (11)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": 27.2,
+                    "y": 0.0,
+                    "z": -5.61
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 147.168549,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.666841149,
+                    "y": 0.5349015,
+                    "z": 0.666841149
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes01 (12)",
+                  "path": "model/Dunes01.fbx",
+                  "position": {
+                    "x": 10.97,
+                    "y": 0.0,
+                    "z": -0.58
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 315.0167,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.66684103,
+                    "y": 0.4140007,
+                    "z": 0.66684103
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes02",
+                  "path": "model/Dunes02.fbx",
+                  "position": {
+                    "x": 17.78,
+                    "y": 0.0,
+                    "z": 28.22
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 293.0141,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 0.328693181,
+                    "z": 1.00000048
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes02 (1)",
+                  "path": "model/Dunes02.fbx",
+                  "position": {
+                    "x": -21.7,
+                    "y": 0.0,
+                    "z": 18.9
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 288.9103,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.00000012,
+                    "y": 0.538965046,
+                    "z": 1.00000012
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes02 (2)",
+                  "path": "model/Dunes02.fbx",
+                  "position": {
+                    "x": -26.15,
+                    "y": 0.0,
+                    "z": -11.79
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 122.469337,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 0.538965046,
+                    "z": 1.0
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes02 (3)",
+                  "path": "model/Dunes02.fbx",
+                  "position": {
+                    "x": -37.19,
+                    "y": 0.0,
+                    "z": 5.68
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 313.99234,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.00000012,
+                    "y": 0.538965046,
+                    "z": 1.00000012
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes02 (4)",
+                  "path": "model/Dunes02.fbx",
+                  "position": {
+                    "x": -37.0,
+                    "y": 0.0,
+                    "z": 16.0
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 124.127228,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.00000012,
+                    "y": 0.538965046,
+                    "z": 1.00000012
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes02 (5)",
+                  "path": "model/Dunes02.fbx",
+                  "position": {
+                    "x": -27.1,
+                    "y": 0.0,
+                    "z": -5.1
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 307.054,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 0.7,
+                    "z": 1.0
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes02 (6)",
+                  "path": "model/Dunes02.fbx",
+                  "position": {
+                    "x": -11.79,
+                    "y": 0.0,
+                    "z": -12.53
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 122.469337,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 0.538965046,
+                    "z": 1.0
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Dunes02 (7)",
+                  "path": "model/Dunes02.fbx",
+                  "position": {
+                    "x": -6.8,
+                    "y": 0.0,
+                    "z": -29.0
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 307.8282,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.99999994,
+                    "y": 0.538965046,
+                    "z": 0.99999994
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Cow",
+                  "path": "model/Cow.fbx",
+                  "position": {
+                    "x": -26.87,
+                    "y": -0.0119999945,
+                    "z": 9.203425
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 105.904457,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.25000048,
+                    "y": 1.25,
+                    "z": 1.25000048
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Cow (1)",
+                  "path": "model/Cow.fbx",
+                  "position": {
+                    "x": -2.96,
+                    "y": -0.18942982,
+                    "z": -16.104
+                  },
+                  "rotation": {
+                    "x": 16.51283,
+                    "y": 116.396629,
+                    "z": 355.4587
+                  },
+                  "scale": {
+                    "x": 1.24999964,
+                    "y": 1.25,
+                    "z": 1.24999976
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Cacti",
+              "path": null,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "children": [
+                {
+                  "name": "Cactus",
+                  "path": "model/Cactus.fbx",
+                  "position": {
+                    "x": 33.31,
+                    "y": 0.03508423,
+                    "z": -26.29
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 100.876968,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.549373567,
+                    "y": 0.5493734,
+                    "z": 0.5493736
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Cactus (1)",
+                  "path": "model/Cactus.fbx",
+                  "position": {
+                    "x": 39.48,
+                    "y": 0.03508423,
+                    "z": -1.66
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 114.660217,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.6597154,
+                    "y": 0.659715235,
+                    "z": 0.6597155
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Cactus (2)",
+                  "path": "model/Cactus.fbx",
+                  "position": {
+                    "x": 20.51,
+                    "y": 0.03508423,
+                    "z": -46.71
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 244.06842,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.5256325,
+                    "y": 0.5256324,
+                    "z": 0.5256325
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Cactus (3)",
+                  "path": "model/Cactus.fbx",
+                  "position": {
+                    "x": 40.92,
+                    "y": 0.03508423,
+                    "z": -34.46
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 331.125366,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.7792891,
+                    "y": 0.7792893,
+                    "z": 0.779289246
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Trees",
+              "path": null,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "children": [
+                {
+                  "name": "Tree",
+                  "path": "model/Tree.fbx",
+                  "position": {
+                    "x": -1.74,
+                    "y": 0.0,
+                    "z": -17.99
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Tree (1)",
+                  "path": "model/Tree.fbx",
+                  "position": {
+                    "x": -3.07,
+                    "y": 0.0,
+                    "z": -12.44
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 296.599976,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.728491,
+                    "y": 0.7284909,
+                    "z": 0.728490949
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Tree (2)",
+                  "path": "model/Tree.fbx",
+                  "position": {
+                    "x": -3.1,
+                    "y": 0.0,
+                    "z": 36.77
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Tree (3)",
+                  "path": "model/Tree.fbx",
+                  "position": {
+                    "x": 1.78,
+                    "y": 0.0,
+                    "z": 41.66
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 246.329178,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 0.90757376,
+                    "y": 0.9075737,
+                    "z": 0.90757376
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Tree (4)",
+                  "path": "model/Tree.fbx",
+                  "position": {
+                    "x": 13.08,
+                    "y": 0.0,
+                    "z": 36.3
+                  },
+                  "rotation": {
+                    "x": 8.857698,
+                    "y": 181.273,
+                    "z": 0.19604896
+                  },
+                  "scale": {
+                    "x": 0.813057,
+                    "y": 0.813056946,
+                    "z": 0.813057
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Tree (5)",
+                  "path": "model/Tree.fbx",
+                  "position": {
+                    "x": 11.7,
+                    "y": 0.09,
+                    "z": 37.28
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 256.469025,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.24629939,
+                    "y": 1.246299,
+                    "z": 1.24629939
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Tree (6)",
+                  "path": "model/Tree.fbx",
+                  "position": {
+                    "x": 14.71,
+                    "y": 0.0,
+                    "z": 4.38
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 288.264,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Tree (7)",
+                  "path": "model/Tree.fbx",
+                  "position": {
+                    "x": -2.3,
+                    "y": 0.0,
+                    "z": 43.87
+                  },
+                  "rotation": {
+                    "x": 353.664124,
+                    "y": 37.8481064,
+                    "z": 355.098877
+                  },
+                  "scale": {
+                    "x": 0.7927631,
+                    "y": 0.7927632,
+                    "z": 0.792763
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Tree (8)",
+                  "path": "model/Tree.fbx",
+                  "position": {
+                    "x": -11.4789724,
+                    "y": 0.0899999142,
+                    "z": 30.9305038
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 321.099976,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.24629962,
+                    "y": 1.246299,
+                    "z": 1.24629962
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Tree (9)",
+                  "path": "model/Tree.fbx",
+                  "position": {
+                    "x": 42.76,
+                    "y": 0.09,
+                    "z": 26.14
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 256.469025,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.05419254,
+                    "y": 1.05419183,
+                    "z": 1.05419254
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PalmTree",
+                  "path": "model/PalmTree.fbx",
+                  "position": {
+                    "x": -8.7,
+                    "y": 0.0,
+                    "z": -37.01
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PalmTree (1)",
+                  "path": "model/PalmTree.fbx",
+                  "position": {
+                    "x": -7.59,
+                    "y": 0.0,
+                    "z": -38.74
+                  },
+                  "rotation": {
+                    "x": 358.304626,
+                    "y": 311.430634,
+                    "z": 11.726119
+                  },
+                  "scale": {
+                    "x": 0.7084451,
+                    "y": 0.708445251,
+                    "z": 0.708445132
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PalmTree (2)",
+                  "path": "model/PalmTree.fbx",
+                  "position": {
+                    "x": -20.45,
+                    "y": 0.0,
+                    "z": -19.21
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 280.56427,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.00000012,
+                    "y": 1.0,
+                    "z": 1.00000012
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PalmTree (3)",
+                  "path": "model/PalmTree.fbx",
+                  "position": {
+                    "x": -20.69,
+                    "y": 0.0,
+                    "z": -20.46
+                  },
+                  "rotation": {
+                    "x": 352.878,
+                    "y": 314.4076,
+                    "z": 7.58993864
+                  },
+                  "scale": {
+                    "x": 0.732141554,
+                    "y": 0.7321414,
+                    "z": 0.7321415
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PalmTree (4)",
+                  "path": "model/PalmTree.fbx",
+                  "position": {
+                    "x": -18.08,
+                    "y": 0.0,
+                    "z": -13.94
+                  },
+                  "rotation": {
+                    "x": 11.0400038,
+                    "y": 313.7608,
+                    "z": 349.068329
+                  },
+                  "scale": {
+                    "x": 0.7646098,
+                    "y": 0.7646096,
+                    "z": 0.764609754
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PalmTree (5)",
+                  "path": "model/PalmTree.fbx",
+                  "position": {
+                    "x": -12.77,
+                    "y": 0.0,
+                    "z": -31.07
+                  },
+                  "rotation": {
+                    "x": 352.878,
+                    "y": 348.440125,
+                    "z": 7.58994341
+                  },
+                  "scale": {
+                    "x": 0.732141435,
+                    "y": 0.7321414,
+                    "z": 0.732141554
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PalmTree (6)",
+                  "path": "model/PalmTree.fbx",
+                  "position": {
+                    "x": -32.86,
+                    "y": 0.0,
+                    "z": 28.88
+                  },
+                  "rotation": {
+                    "x": 358.304626,
+                    "y": 311.430634,
+                    "z": 11.726119
+                  },
+                  "scale": {
+                    "x": 0.7892891,
+                    "y": 0.7892894,
+                    "z": 0.789289236
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PalmTree (7)",
+                  "path": "model/PalmTree.fbx",
+                  "position": {
+                    "x": -39.53,
+                    "y": -0.09216833,
+                    "z": 29.14
+                  },
+                  "rotation": {
+                    "x": 3.47543669,
+                    "y": 48.29426,
+                    "z": 348.969849
+                  },
+                  "scale": {
+                    "x": 0.640169442,
+                    "y": 0.640169442,
+                    "z": 0.640169442
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PalmTree (8)",
+                  "path": "model/PalmTree.fbx",
+                  "position": {
+                    "x": -35.9,
+                    "y": -0.09216833,
+                    "z": 27.95
+                  },
+                  "rotation": {
+                    "x": 340.694946,
+                    "y": 308.1725,
+                    "z": 4.36778545
+                  },
+                  "scale": {
+                    "x": 0.5193244,
+                    "y": 0.519324362,
+                    "z": 0.5193243
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PalmTree (9)",
+                  "path": "model/PalmTree.fbx",
+                  "position": {
+                    "x": -19.76,
+                    "y": 0.0,
+                    "z": -29.22
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 212.054932,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.00000036,
+                    "y": 1.0,
+                    "z": 1.00000036
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "OilField",
+              "path": null,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "children": [
+                {
+                  "name": "OilStorage",
+                  "path": "model/OilStorage.fbx",
+                  "position": {
+                    "x": 29.9,
+                    "y": 0.0,
+                    "z": -33.4
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 185.804932,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.75000107,
+                    "y": 1.75,
+                    "z": 1.75000107
+                  },
+                  "children": []
+                },
+                {
+                  "name": "OilStorage (1)",
+                  "path": "model/OilStorage.fbx",
+                  "position": {
+                    "x": 35.8,
+                    "y": 0.0,
+                    "z": -24.1
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 192.705521,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.74999976,
+                    "y": 1.75,
+                    "z": 1.74999988
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PumpJack",
+                  "path": null,
+                  "position": {
+                    "x": 29.51,
+                    "y": 0.0,
+                    "z": -12.67
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 29.9999561,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.00000012,
+                    "y": 1.0,
+                    "z": 1.00000012
+                  },
+                  "children": [
+                    {
+                      "name": "Pumpjack",
+                      "path": "model/PumpJack.fbx",
+                      "position": {
+                        "x": 29.51,
+                        "y": 3.38228726,
+                        "z": -12.67
+                      },
+                      "rotation": {
+                        "x": -1.52814891E-07,
+                        "y": -1.37665765E-07,
+                        "z": 0
+                      },
+                      "scale": {
+                        "x": 1.00000012,
+                        "y": 1.0,
+                        "z": 1.00000012
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "PumpJack (1)",
+                  "path": null,
+                  "position": {
+                    "x": 28.08,
+                    "y": 0.0,
+                    "z": -18.83
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 29.9999561,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.00000012,
+                    "y": 1.0,
+                    "z": 1.00000012
+                  },
+                  "children": [
+                    {
+                      "name": "Pumpjack",
+                      "path": "model/PumpJack.fbx",
+                      "position": {
+                        "x": 28.08,
+                        "y": 3.38228726,
+                        "z": -18.83
+                      },
+                      "rotation": {
+                        "x": -1.52814891E-07,
+                        "y": -1.37665765E-07,
+                        "z": 0
+                      },
+                      "scale": {
+                        "x": 1.00000012,
+                        "y": 1.0,
+                        "z": 1.00000012
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "PumpJack (2)",
+                  "path": null,
+                  "position": {
+                    "x": 22.94,
+                    "y": 0.0,
+                    "z": -15.17
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 29.9999561,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.00000012,
+                    "y": 1.0,
+                    "z": 1.00000012
+                  },
+                  "children": [
+                    {
+                      "name": "Pumpjack",
+                      "path": "model/PumpJack.fbx",
+                      "position": {
+                        "x": 22.94,
+                        "y": 3.38228726,
+                        "z": -15.17
+                      },
+                      "rotation": {
+                        "x": -1.52814891E-07,
+                        "y": -1.37665765E-07,
+                        "z": 0
+                      },
+                      "scale": {
+                        "x": 1.00000012,
+                        "y": 1.0,
+                        "z": 1.00000012
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Refinery",
+                  "path": "model/Refinery.fbx",
+                  "position": {
+                    "x": 13.9,
+                    "y": 0.0,
+                    "z": -27.0
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 275.438,
+                    "z": 0.0
+                  },
+                  "scale": {
+                    "x": 1.00000012,
+                    "y": 1.0,
+                    "z": 1.00000012
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Helipad",
+              "path": "model/Helipad.fbx",
+              "position": {
+                "x": -27.92,
+                "y": 0.0,
+                "z": -30.72
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 205.520309,
+                "z": 0.0
+              },
+              "scale": {
+                "x": 1.00000036,
+                "y": 1.0,
+                "z": 1.00000036
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+}
